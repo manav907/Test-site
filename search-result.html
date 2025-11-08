@@ -16,9 +16,8 @@
    <link rel="stylesheet" href="./assets/css/header.css">
    <link rel="stylesheet" href="./assets/css/menu.css">
    <link rel="stylesheet" href="./assets/css/shopping-cart.css">
-   <link rel="stylesheet" href="./assets/css/hero.css">
-   <link rel="stylesheet" href="./assets/css/category.css">
    <link rel="stylesheet" href="./assets/css/product.css">
+   <link rel="stylesheet" href="./assets/css/search-result.css">
    <link rel="stylesheet" href="./assets/css/footer.css">
    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
    <link href="https://fonts.googleapis.com/css2?family=Gantari:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
@@ -35,7 +34,7 @@
 
   gtag('config', 'G-0P2S1LL00T');
 </script>
- 
+   
 <body>
    <!-- Google Tag Manager (noscript) -->
    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MMT9K4"
@@ -44,7 +43,7 @@
    
    <header class="header">
       <i class="fa-solid fa-bars header__menu-icon" data-menu-button aria-label="Menu icon" tabindex="0"></i>
-      <a href="#" class="header__title">Grocery Store</a>
+      <a href="./home.html" class="header__title">Grocery Store</a>
       <div class="header__search-cart">        
          <input type="search" placeholder="Search" class="header__search-text invisible" data-search-bar>
          <i class="fa-solid fa-magnifying-glass header__search-icon" data-search-icon aria-label="Search icon" tabindex="0"></i>
@@ -85,12 +84,7 @@
       </div>
    </section>
    <main>
-      <section class="hero">
-         <h1 class="hero__title">Fresh fruits, <br> vegetables</h1>
-         <h2 class="hero__subtitle">and more!</h2>
-         <a href="./category.html?cat=all-products" class="hero__button button">Shop now</a>
-      </section>
-      <section class="categories" data-categories-section>
+      <section class="search" data-search-result>
       </section>
    </main>
    <footer class="footer">
@@ -104,16 +98,16 @@
       </section>
       <ul class="footer__list">
          <li class="footer__item">
-            <a href="#" class="footer__link">About Us</a>
+            <a class="footer__link">About Us</a>
          </li>
          <li class="footer__item">
-            <a href="#" class="footer__link">Terms of Use</a>
+            <a class="footer__link">Terms of Use</a>
          </li>
          <li class="footer__item">
-            <a href="#" class="footer__link">FAQ</a>
+            <a class="footer__link">FAQ</a>
          </li>
          <li class="footer__item">
-            <a href="#" class="footer__link">Help</a>
+            <a class="footer__link">Help</a>
          </li>
       </ul>
       <div class="developer">
@@ -121,7 +115,6 @@
          <span class="developer__year">2022</span>
       </div>
    </footer>
-   <script type="module" src="./assets/js/home.js"></script>
+   <script type="module" src="./assets/js/search-result.js"></script>
 </body>
- 
 </html>
